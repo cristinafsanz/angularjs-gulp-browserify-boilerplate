@@ -5,30 +5,30 @@ export default {
   testPort: 3002,
 
   sourceDir: './app/',
-  buildDir: './build/',
+  buildDir: './docs/',
 
   styles: {
     src: 'app/styles/**/*.scss',
-    dest: 'build/css',
+    dest: 'docs/css',
     prodSourcemap: false,
     sassIncludePaths: []
   },
 
   scripts: {
     src: 'app/js/**/*.js',
-    dest: 'build/js',
+    dest: 'docs/js',
     test: 'test/**/*.js',
     gulp: 'gulp/**/*.js'
   },
 
   images: {
     src: 'app/images/**/*',
-    dest: 'build/images'
+    dest: 'docs/images'
   },
 
   fonts: {
     src: ['app/fonts/**/*'],
-    dest: 'build/fonts'
+    dest: 'docs/fonts'
   },
 
   assetExtensions: [
@@ -52,8 +52,8 @@ export default {
   },
 
   gzip: {
-    src: 'build/**/*.{html,xml,json,css,js,js.map,css.map}',
-    dest: 'build/',
+    src: 'docs/**/*.{html,xml,json,css,js,js.map,css.map}',
+    dest: 'docs/',
     options: {}
   },
 

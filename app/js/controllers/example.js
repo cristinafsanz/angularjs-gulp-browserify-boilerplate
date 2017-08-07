@@ -3,9 +3,8 @@ function ExampleCtrl() {
   // ViewModel
   const vm = this;
 
-  vm.title = 'AngularJS, Gulp, and Browserify! Written with keyboards and love!';
-  vm.number = 1234;
-
+  vm.title = 'AngularJS, Gulp, and Browserify!';
+  vm.modifiedPart = 'Ejemplo modificado para probar GitHub Pages habilitado en el directorio /docs de la rama master.';
 }
 
 export default {
