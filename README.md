@@ -10,4 +10,8 @@ Fork del repositorio https://github.com/jakemmarsh/angularjs-gulp-browserify-boi
 3. Ejecutar `npm run dev` para probar en local.
 4. Para generar el código para producción ejecutar el script `npm run build`.
 
-Nota: Se modificó el fichero `gulp/config.js` para que la salida se genere en el directorio /docs, directorio desde donde GitHub Pages publicará el contenido web.
+Nota:
+
+- Se modificó el fichero `gulp/config.js` para que la salida se genere en el directorio /docs, directorio desde donde GitHub Pages publicará el contenido web.
+
+Las distintas posibilidades de publicación con GitHub Pages las explico en https://github.com/cristinafsanz/github-pages.
